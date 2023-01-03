@@ -71,3 +71,35 @@
 	transition: 0.7s ease-in-out;
 	cursor: pointer;
 }
+ 
+#contact .icon i{
+	font-size: 2rem;
+}
+
+
+@media (max-width: 576px) {  
+	#contact .icon i{
+		font-size: 1rem;
+	 
+		
+	}
+	.icon {
+		width: 2rem;
+		height: 2rem;
+		background-color: rgb(87, 128, 179);
+		border-radius: 5rem;
+		border: 5rem;
+		
+	}
+	
+}
+
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	background-color: aliceblue;
+	color: darkblue;
+	border: none;
+  }
